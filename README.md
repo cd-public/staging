@@ -1,5 +1,12 @@
+This page:
+https://cd-public.github.io/staging/megadraftmerge.html
+
+
+My notes:
+
 https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-computing-programs-2024-2025/
 
+CS
 
     Computer science: At least 40 semester credit hours (or equivalent) that must include:
         Substantial coverage of algorithms and complexity, computer science theory, concepts of programming languages, and software development.
@@ -9,11 +16,8 @@ https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediti
         A major project that requires integration and application of knowledge and skills acquired in earlier course work.
     Mathematics and Statistics: At least 15 semester credit hours (or equivalent) that must include discrete mathematics, probability, and statistics and must have mathematical rigor at least equivalent to introductory calculus.
     Science: Coursework that develops and applies the scientific method in a non-computing area.
-
-
-These requirements are:
-
-At least 45 semester credit hours (or equivalent) of data science course work that must cover:
+DS
+    At least 45 semester credit hours (or equivalent) of data science course work that must cover:
 
     Fundamental data science lifecycle topics:
         Data acquisition and representativeness
