@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+</head>
+<body>
+  <script>
+    const socket = io('http://localhost:3000');
+
+    socket.on('connected', () => {
+        console.log('Connected to sockets');
+        socket.emit('subscribe.test');
+    });
+
+    socket.on('test', (event) => {
+        console.log('Message from socket server');
+        console.log(event);
+    });
+
+    // socket.disconnect();
+  </script>
+</body>
+</html>
